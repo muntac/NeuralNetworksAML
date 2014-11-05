@@ -1,0 +1,17 @@
+Copy the csv files to this folder and to the Theanos foler. Then run "convert_to_numpy_bias.py" here and "convert_to_numpyRAW.py" in the Theanos folder to generate the appropriate
+datasets.
+
+
+NNIncrementalTest.py
+
+This is the basic implemented neural network code for part b) of the assignment. It runs on the test after every epoch and outputs a file. It also states the minimum
+squared error for each epoch
+
+pybrainMod.py
+
+This is the basic neural network implemented through the pybrain library. Works similar to the previous file
+
+Theanos
+
+This is simply code from http://www.deeplearning.net/tutorial/ modified only slightly to take in our dataset and produce output files. This was used to make the submissions
+on Kaggle.
